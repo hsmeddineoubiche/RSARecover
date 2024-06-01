@@ -9,7 +9,7 @@ The RSA Private Key Recovery Tool is a command-line utility designed to assist i
 - Utilizes concurrent execution to speed up the factorization process, leveraging the power of multiprocessing and multithreading.
 - Generates the RSA private key in PEM format once the prime factors are successfully recovered, allowing smooth integration with other cryptographic tools and libraries.
 
-Note that the tool has some issues with the timeout flag it's recommended to use the attack flag since the tool contains only three methods for now 
+Note that the tool has some issues with the timeout flag it's recommended to use the method flag since the tool contains only three methods for now 
 
 ## Installation
 Clone the repository and install the required dependencies:
